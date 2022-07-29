@@ -1,0 +1,32 @@
+
+#textareaA{
+    width:750px;
+    height: 500px;
+    background-color: rgb(223, 219, 255);
+    border: solid;
+
+}
+
+#textareaB{
+    width:750px;
+    height: 200px;
+    background-color: rgb(219, 244, 255);
+    border: solid;
+
+}
+#textareaC{
+    width:750px;
+    height: 200px;
+    background-color: rgb(241, 219, 255);
+    border: solid;
+
+}
+
+/* #btn{
+    
+} */
+
+h1{
+    text-align: center;
+    background-color: rgb(212, 255, 241);
+}

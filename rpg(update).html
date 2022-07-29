@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="rpg.css">
+    <script src="common.js"></script>
+    <script src="rpg(update).js"></script>
+    <script src="cha(update).js"></script>
+  
+</head>
+<body>
+    <h1>⭐TEXT RPG⭐</h1>
+
+    <textarea id="textareaA"></textarea><br>
+    <textarea id="textareaB"></textarea><br>
+    <textarea id="textareaC"></textarea><br>
+    
+    <input id="input_turn">
+    <button onclick="turn_bt()">진행</button>
+
+    <input type="button"
+    id="zz"
+    onclick='changezzName()'
+    value="어떡하지..?">
+
+
+<!-- 버튼누르면 버튼 글씨 바뀌고 초기화됨 -->
+    <input type="button" 
+    id="btn"
+    onclick='changeBtnName()'
+    value="마을로 돌아가기">
+
+    
+</body>
+</html>
